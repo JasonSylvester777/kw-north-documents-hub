@@ -586,6 +586,10 @@
       flex-shrink: 0;
     }
 
+    .modal-actions .btn {
+      min-width: 160px;
+    }
+
     svg {
       width: 24px;
       height: 24px;
@@ -630,7 +634,7 @@
       .modal-body { padding: 16px; }
       .modal-item { flex-direction: column; align-items: stretch; }
       .modal-actions { width: 100%; }
-      .modal-actions .btn { width: 100%; }
+      .modal-actions .btn { width: 100%; min-width: 0; }
     }
   </style>
 </head>
@@ -806,7 +810,17 @@
         <div class="modal-list">
           <div class="modal-item">
             <div class="modal-item-text">
-              <strong>1. Property Listing form</strong>
+              <strong>1. Property Listing Form - Word</strong>
+              <span>Download to add info digitally.</span>
+            </div>
+            <div class="modal-actions">
+              <button class="btn btn-primary" type="button" onclick="openLink('https://docs.google.com/document/d/17sSRfiuAAAHQE72F5w9NUQ35hkvo3S6-/export?format=docx')">Download</button>
+            </div>
+          </div>
+
+          <div class="modal-item">
+            <div class="modal-item-text">
+              <strong>2. Property Listing Form - PDF</strong>
               <span>Core listing form for property information.</span>
             </div>
             <div class="modal-actions">
@@ -816,7 +830,7 @@
 
           <div class="modal-item">
             <div class="modal-item-text">
-              <strong>2. Sample of Listing presentation</strong>
+              <strong>3. Sample of Listing presentation</strong>
               <span>Sample listing presentation reference.</span>
               <span class="modal-note">Please create your own version as these are samples only.</span>
             </div>
@@ -827,7 +841,7 @@
 
           <div class="modal-item">
             <div class="modal-item-text">
-              <strong>3. Sample of Marketing Plan</strong>
+              <strong>4. Sample of Marketing Plan</strong>
               <span>Sample marketing plan reference.</span>
               <span class="modal-note">Please create your own version as these are samples only.</span>
             </div>
@@ -838,7 +852,7 @@
 
           <div class="modal-item">
             <div class="modal-item-text">
-              <strong>4. Registration process</strong>
+              <strong>5. Registration process</strong>
               <span>Registration process reference document.</span>
             </div>
             <div class="modal-actions">
@@ -848,7 +862,7 @@
 
           <div class="modal-item">
             <div class="modal-item-text">
-              <strong>5. Resolution</strong>
+              <strong>6. Resolution</strong>
               <span>Resolution document.</span>
             </div>
             <div class="modal-actions">
@@ -858,7 +872,7 @@
 
           <div class="modal-item">
             <div class="modal-item-text">
-              <strong>6. Bond Notice Letter</strong>
+              <strong>7. Bond Notice Letter</strong>
               <span>Bond notice template letter.</span>
             </div>
             <div class="modal-actions">
@@ -868,7 +882,7 @@
 
           <div class="modal-item">
             <div class="modal-item-text">
-              <strong>7. Buyers & Sellers Process</strong>
+              <strong>8. Buyers & Sellers Process</strong>
               <span>Buyer and seller process guide.</span>
             </div>
             <div class="modal-actions">
@@ -878,7 +892,7 @@
 
           <div class="modal-item">
             <div class="modal-item-text">
-              <strong>8. FICA REQUIREMENTS</strong>
+              <strong>9. FICA REQUIREMENTS</strong>
               <span>FICA requirements document.</span>
             </div>
             <div class="modal-actions">
@@ -888,7 +902,7 @@
 
           <div class="modal-item">
             <div class="modal-item-text">
-              <strong>9. KW North Sales Price Calculator v2</strong>
+              <strong>10. KW North Sales Price Calculator v2</strong>
               <span>View only calculator with seller’s price in pocket divided by factor formula.</span>
             </div>
             <div class="modal-actions">
@@ -898,7 +912,7 @@
 
           <div class="modal-item">
             <div class="modal-item-text">
-              <strong>10. KW NORTH COMPANY PROFILE</strong>
+              <strong>11. KW NORTH COMPANY PROFILE</strong>
               <span>Company profile document.</span>
             </div>
             <div class="modal-actions">
@@ -927,7 +941,7 @@
               <span>Download to add info digitally.</span>
             </div>
             <div class="modal-actions">
-              <button class="btn btn-primary" type="button" onclick="openLink('https://docs.google.com/document/d/1dLXZvU02mTN7ix0y1z1STJUl39SL2Bvo/export?format=docx')">Download Word</button>
+              <button class="btn btn-primary" type="button" onclick="openLink('https://docs.google.com/document/d/1RdvMz-0riURNrjlbuww7mafgVPiglGMa/export?format=docx')">Download</button>
             </div>
           </div>
 
@@ -937,7 +951,7 @@
               <span>Offer to Purchase PDF.</span>
             </div>
             <div class="modal-actions">
-              <button class="btn btn-primary" type="button" onclick="openLink('https://docs.google.com/document/d/1RdvMz-0riURNrjlbuww7mafgVPiglGMa/export?format=docx')">Download Word</button>
+              <button class="btn btn-primary" type="button" onclick="openLink('https://drive.google.com/uc?export=download&id=1BIZgf8x3bHUqKmAffo24CbL2SHTHPked')">Download</button>
             </div>
           </div>
 
